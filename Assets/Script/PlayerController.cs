@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public AudioClip dieClip;
     public float jump = 7.0f;
+    public float moveSpeed = 3.0f;
 
     private int deathCnt = 0;
     private bool isGrounded = false;
